@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹표준 퍼블리싱</title>
+    <script src="./js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/join.css">
+    <!--[if lt IE9]>
+        <script src="./js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+ 
+<header id="header">
+    <div class="inner cf">
+        <h1><a href="/index.html"><img src="./images/logo.png" alt=""></a></h1>
+        <div class="membership">
+            <a href="/login.html">로그인</a>
+            <a href="/join.html">회원가입</a>
+        </div>
+        <nav id="nav">
+            <ul class="depth1 cf">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">블로그</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(기변형)</a></li>
+                        <li><a href="#">목록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">제품소개</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(확대)</a></li>
+                        <li><a href="#">목록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">갤러리</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(가변형)</a></li>
+                        <li><a href="#">슬라이드</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">문의하기</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="loginsection" class="cf">
+    <h2>로그인</h2>
+    <div id="loginbox">
+        <form action="#" method="post" autocomplete="off">
+            <p><input type="text" id="idname" placeholder="아이디" autocomplete="off"></p>
+            <p><input type="text" id="password" placeholder="비밀번호" autocomplete="off"></p>
+            <p><input type="text" id="in" placeholder="로그인" autocomplete="off"></p>
+            <p>
+                <input id="idsave" type="checkbox" value="yes">
+            </p>
+            <ul class="cf" >
+                <li><button type="submit">가입하기</button><li>
+                <li><button type="submit">최소</button><li>
+    
+<li>
+            </ul class=cf>
+        </form>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="inner">
+        <div class="sns">
+            <a href="#"><span class="blind">페이스북</span><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><span class="blind">트위터</span><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><span class="blind">인스타그램</span><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><span class="blind">유튜브</span><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="contact">
+            <a href="tel:02-111-1111">전화번호 : (02) 111-1111</a>
+            <a href="mailto:gallerypiece@cafe24.com">이메일 주소 : gallerypiece@cafe24.com</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

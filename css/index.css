@@ -1,0 +1,113 @@
+@charset "utf-8";
+#section article h2 {
+    font-size:30px; color:#282866;
+    text-align:center; margin-bottom:30px;
+}
+#section .article1 {
+    padding-top:106px; 
+    background:#eef5fc
+}
+#section .article1 .inner {
+    background:url(../images/mainbanner.png) no-repeat;
+    background-size:500px auto; 
+    background-position:left 50px;
+    overflow:hidden; 
+    padding-top:62px; 
+}
+#section .article1 .inner .slogun {
+    width:50%; float:right;
+    padding-bottom:245px;  
+    word-break:keep-all;
+    line-height:1.5;
+}
+#section .article1 .inner .slogun h2 {
+    font-size:29px; color:#2e2e2e;
+    margin-bottom:40px; 
+}
+#section .article1 .inner .slogun p {
+    font-size:18px; color:#505050;
+}
+#section .article2 { padding:50px 0; }
+#section .article2 .design {
+    overflow:hidden; text-align:center; 
+}
+#section .article2 li { float:left; width:25%;
+    padding:0 10px; 
+}
+#section .article2 li .icon {
+    font-size:50px; margin-bottom:20px; 
+    color:#282866;
+}
+#section .article2 li h3 {
+    font-size:19px; color:#282866; 
+}
+#section .article2 li p {
+    font-size:14px; color:#7a7a7a; 
+    padding:14px 0;
+    line-height:1.5;
+}
+#section .article3 { padding:50px 0 }
+/* #section .article3 .hlayout { overflow:hidden } */
+#section .article3 li {
+    float:left; width:33.33%; 
+    padding:0 10px; ; 
+}
+#section .article3 li div { overflow:hidden }
+#section .article3 li div:hover img {
+    transform:scale(1.2)
+}
+#section .article3 li div img {
+    transition:all 0.5s;
+}
+#section .article3 li h3 {
+    font-size:18px; color:#2e2e2e;
+    margin-top:20px; 
+}
+
+#section .article4 {
+    padding:240px 0;
+    background:url(../images/videobanner.png) no-repeat;
+    background-size:cover; 
+    background-position:center; 
+}
+#section .article4 .icon {
+    color:#fff; font-size:30px; 
+    width:100px; height:100px; 
+    border-radius:50%; 
+    border:5px solid #fff; 
+    text-align:center; 
+    line-height:85px; 
+    margin:0 auto; 
+}
+
+#section .article5 { padding:50px 0; }
+#section .article5 .blayout { overflow:hidden }
+#section .article5 li {
+    float:left; width:33.33%; 
+    text-align:center; padding:0 10px; }
+#section .article5 li h3 {
+    font-size:18px; color:#2e2e2e;
+    margin-top:20px; }
+
+#section .article6 {
+     background:#eef5fc
+}
+#section .article6 .inner {
+    background:url(../images/subbanner.png) no-repeat;
+    background-position:right center;
+    background-size:600px auto;
+    padding:130px 0;
+}
+#section .article6 .text {
+    width:50%; 
+}
+#section .article6 .text h2 {
+    font-size:36px; color:#2e2e2e;
+    margin-bottom:40px; text-align:left
+}
+#section .article6 .text p {
+    font-size:16px; color:#505050;
+    word-break: keep-all;
+    line-height:1.5
+}
+

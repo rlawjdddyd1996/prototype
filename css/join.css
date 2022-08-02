@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+#joinsection { padding-top:106px }
+@charset "utf-8";
+/* input { outline:none } */
+#loginsection { margin:0 auto; width:50%; padding-top:94px }
+#loginsection h2 { font-size:30px; text-align:center;
+    margin-top:100px; }
+#loginsection #loginbox { width:568px; 
+    background:#fff; 
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+    margin:50px auto; 
+}
+#loginbox .welcome {
+    font-size:18px; color:#777;
+    padding:30px 20px; 
+    text-align:center; 
+}
+
+#loginbox form { padding:20px; border-top:1px solid #ddd }
+#loginbox #idname, #password, #in{ width:50%; 
+    border:1px solid #000; height:47px; padding:15px; 
+    border-radius:3px; margin:10px 10px 5px 130px; }
+
+
+    #loginbox #id, #loginbox #pw { width:100%; 
+    border:1px solid #ddd; height:47px; padding:15px; 
+    border-radius:3px; margin-bottom:10px; 
+}
+#loginbox #id:focus, #loginbox #pw:focus {
+    background:#ddd;
+}
+#loginbox #idsave { display:none }
+#loginbox #idsave+label { font-size:16px; 
+    color:#3f4141; margin-left:5px;
+    background-image:url(../images/mem_check_off.png);
+    background-repeat:no-repeat;
+    background-size:25px auto;
+    background-position:0 center; 
+    padding:10px 0 10px 35px; display:inline-block; 
+}
+#loginbox #idsave:checked+label { 
+    background-image:url(../images/mem_check_on.png);
+}
+
+#loginbox h2{margin:0 auto;}
+#loginbox ul{}
+
+#loginbox button {  height:65px; background:#4472c4;;
+    color:#fff; font-size:24px; border-radius:3px; 
+    float:left; width:33.33%; 
+    padding:0 10px; text-align:center; margin-right:20px; 
+}
+
+#loginbox .infotext { padding:0 20px 20px; color:#006633;
+    font-size:14px; line-height:1.4
+}
+#loginbox .findjoin > div { overflow:hidden }
+#loginbox .findjoin > div a {
+    width:33.33%; height:54px; float:left; 
+    text-align:center; line-height:54px; 
+    position:relative; 
+}
+#loginbox .findjoin > div a:focus {
+    color:#f00
+}
+#loginbox .findjoin > div a+a::before {
+    content:''; width:1px; background:#ddd; 
+    position:absolute; top:19px; left:0; bottom:19px; 
+}
+
